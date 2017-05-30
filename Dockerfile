@@ -10,7 +10,7 @@ EXPOSE 80 81
 #Copy config file
 COPY ./apache2.conf /etc/apache2/conf/apache2.conf
 COPY ./example.com /var/www/example.com
-COPY ./example2.com /var/www/example2.com
+COPY ./qsxdrgb.com /var/www/qsxdrgb.com
 COPY ./sites-available /etc/apache2/sites-available
 COPY ./sites-enabled /etc/apache2/sites-enabled
 
