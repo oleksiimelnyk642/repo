@@ -5,6 +5,7 @@ Maintainer oleksiimelnyk
 
 RUN apt-get update -y 
 RUN apt-get install -y apache2 vim
+RUN echo "Listen 81" >> /etc/apache2/ports.conf
 EXPOSE 80 81
 
 #Copy config file
